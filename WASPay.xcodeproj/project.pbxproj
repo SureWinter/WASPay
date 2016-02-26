@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BCF92981C801EC300637CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF92971C801EC300637CFD /* main.m */; };
+		7BCF929B1C801EC300637CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF929A1C801EC300637CFD /* AppDelegate.m */; };
+		7BCF929E1C801EC300637CFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF929D1C801EC300637CFD /* ViewController.m */; };
+		7BCF92A11C801EC300637CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF929F1C801EC300637CFD /* Main.storyboard */; };
+		7BCF92A31C801EC300637CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF92A21C801EC300637CFD /* Assets.xcassets */; };
+		7BCF92A61C801EC300637CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF92A41C801EC300637CFD /* LaunchScreen.storyboard */; };
+		7BCF92B11C801EC300637CFD /* WASPayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF92B01C801EC300637CFD /* WASPayTests.m */; };
+		7BCF92BC1C801EC300637CFD /* WASPayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF92BB1C801EC300637CFD /* WASPayUITests.m */; };
+		7BCF92CD1C804BCF00637CFD /* buy@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7BCF92CC1C804BCF00637CFD /* buy@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BCF92AD1C801EC300637CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCF928B1C801EC300637CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BCF92921C801EC300637CFD;
+			remoteInfo = WASPay;
+		};
+		7BCF92B81C801EC300637CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCF928B1C801EC300637CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BCF92921C801EC300637CFD;
+			remoteInfo = WASPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BCF92931C801EC300637CFD /* WASPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WASPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCF92971C801EC300637CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BCF92991C801EC300637CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BCF929A1C801EC300637CFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BCF929C1C801EC300637CFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BCF929D1C801EC300637CFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BCF92A01C801EC300637CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BCF92A21C801EC300637CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCF92A51C801EC300637CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BCF92A71C801EC300637CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCF92AC1C801EC300637CFD /* WASPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WASPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCF92B01C801EC300637CFD /* WASPayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASPayTests.m; sourceTree = "<group>"; };
+		7BCF92B21C801EC300637CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCF92B71C801EC300637CFD /* WASPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WASPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCF92BB1C801EC300637CFD /* WASPayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WASPayUITests.m; sourceTree = "<group>"; };
+		7BCF92BD1C801EC300637CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCF92C91C801EF300637CFD /* WASPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WASPay.entitlements; sourceTree = "<group>"; };
+		7BCF92CC1C804BCF00637CFD /* buy@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buy@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BCF92901C801EC300637CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF92A91C801EC300637CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF92B41C801EC300637CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BCF928A1C801EC300637CFD = {
+			isa = PBXGroup;
+			children = (
+				7BCF92951C801EC300637CFD /* WASPay */,
+				7BCF92AF1C801EC300637CFD /* WASPayTests */,
+				7BCF92BA1C801EC300637CFD /* WASPayUITests */,
+				7BCF92941C801EC300637CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BCF92941C801EC300637CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCF92931C801EC300637CFD /* WASPay.app */,
+				7BCF92AC1C801EC300637CFD /* WASPayTests.xctest */,
+				7BCF92B71C801EC300637CFD /* WASPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BCF92951C801EC300637CFD /* WASPay */ = {
+			isa = PBXGroup;
+			children = (
+				7BCF92C91C801EF300637CFD /* WASPay.entitlements */,
+				7BCF92991C801EC300637CFD /* AppDelegate.h */,
+				7BCF929A1C801EC300637CFD /* AppDelegate.m */,
+				7BCF929C1C801EC300637CFD /* ViewController.h */,
+				7BCF929D1C801EC300637CFD /* ViewController.m */,
+				7BCF929F1C801EC300637CFD /* Main.storyboard */,
+				7BCF92A21C801EC300637CFD /* Assets.xcassets */,
+				7BCF92A41C801EC300637CFD /* LaunchScreen.storyboard */,
+				7BCF92A71C801EC300637CFD /* Info.plist */,
+				7BCF92961C801EC300637CFD /* Supporting Files */,
+			);
+			path = WASPay;
+			sourceTree = "<group>";
+		};
+		7BCF92961C801EC300637CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BCF92CC1C804BCF00637CFD /* buy@2x.jpg */,
+				7BCF92971C801EC300637CFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BCF92AF1C801EC300637CFD /* WASPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BCF92B01C801EC300637CFD /* WASPayTests.m */,
+				7BCF92B21C801EC300637CFD /* Info.plist */,
+			);
+			path = WASPayTests;
+			sourceTree = "<group>";
+		};
+		7BCF92BA1C801EC300637CFD /* WASPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BCF92BB1C801EC300637CFD /* WASPayUITests.m */,
+				7BCF92BD1C801EC300637CFD /* Info.plist */,
+			);
+			path = WASPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BCF92921C801EC300637CFD /* WASPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCF92C01C801EC300637CFD /* Build configuration list for PBXNativeTarget "WASPay" */;
+			buildPhases = (
+				7BCF928F1C801EC300637CFD /* Sources */,
+				7BCF92901C801EC300637CFD /* Frameworks */,
+				7BCF92911C801EC300637CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WASPay;
+			productName = WASPay;
+			productReference = 7BCF92931C801EC300637CFD /* WASPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BCF92AB1C801EC300637CFD /* WASPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCF92C31C801EC300637CFD /* Build configuration list for PBXNativeTarget "WASPayTests" */;
+			buildPhases = (
+				7BCF92A81C801EC300637CFD /* Sources */,
+				7BCF92A91C801EC300637CFD /* Frameworks */,
+				7BCF92AA1C801EC300637CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BCF92AE1C801EC300637CFD /* PBXTargetDependency */,
+			);
+			name = WASPayTests;
+			productName = WASPayTests;
+			productReference = 7BCF92AC1C801EC300637CFD /* WASPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BCF92B61C801EC300637CFD /* WASPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCF92C61C801EC300637CFD /* Build configuration list for PBXNativeTarget "WASPayUITests" */;
+			buildPhases = (
+				7BCF92B31C801EC300637CFD /* Sources */,
+				7BCF92B41C801EC300637CFD /* Frameworks */,
+				7BCF92B51C801EC300637CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BCF92B91C801EC300637CFD /* PBXTargetDependency */,
+			);
+			name = WASPayUITests;
+			productName = WASPayUITests;
+			productReference = 7BCF92B71C801EC300637CFD /* WASPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCF928B1C801EC300637CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wangshuo;
+				TargetAttributes = {
+					7BCF92921C801EC300637CFD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4VGMLHC8T7;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
+					};
+					7BCF92AB1C801EC300637CFD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7BCF92921C801EC300637CFD;
+					};
+					7BCF92B61C801EC300637CFD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7BCF92921C801EC300637CFD;
+					};
+				};
+			};
+			buildConfigurationList = 7BCF928E1C801EC300637CFD /* Build configuration list for PBXProject "WASPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BCF928A1C801EC300637CFD;
+			productRefGroup = 7BCF92941C801EC300637CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BCF92921C801EC300637CFD /* WASPay */,
+				7BCF92AB1C801EC300637CFD /* WASPayTests */,
+				7BCF92B61C801EC300637CFD /* WASPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BCF92911C801EC300637CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCF92A61C801EC300637CFD /* LaunchScreen.storyboard in Resources */,
+				7BCF92A31C801EC300637CFD /* Assets.xcassets in Resources */,
+				7BCF92A11C801EC300637CFD /* Main.storyboard in Resources */,
+				7BCF92CD1C804BCF00637CFD /* buy@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF92AA1C801EC300637CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF92B51C801EC300637CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BCF928F1C801EC300637CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCF929E1C801EC300637CFD /* ViewController.m in Sources */,
+				7BCF929B1C801EC300637CFD /* AppDelegate.m in Sources */,
+				7BCF92981C801EC300637CFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF92A81C801EC300637CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCF92B11C801EC300637CFD /* WASPayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCF92B31C801EC300637CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCF92BC1C801EC300637CFD /* WASPayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BCF92AE1C801EC300637CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BCF92921C801EC300637CFD /* WASPay */;
+			targetProxy = 7BCF92AD1C801EC300637CFD /* PBXContainerItemProxy */;
+		};
+		7BCF92B91C801EC300637CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BCF92921C801EC300637CFD /* WASPay */;
+			targetProxy = 7BCF92B81C801EC300637CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BCF929F1C801EC300637CFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCF92A01C801EC300637CFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCF92A41C801EC300637CFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCF92A51C801EC300637CFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BCF92BE1C801EC300637CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BCF92BF1C801EC300637CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BCF92C11C801EC300637CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WASPay/WASPay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WASPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WASPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7BCF92C21C801EC300637CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WASPay/WASPay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WASPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WASPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7BCF92C41C801EC300637CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WASPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.WASPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WASPay.app/WASPay";
+			};
+			name = Debug;
+		};
+		7BCF92C51C801EC300637CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WASPayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.WASPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WASPay.app/WASPay";
+			};
+			name = Release;
+		};
+		7BCF92C71C801EC300637CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WASPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.WASPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WASPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7BCF92C81C801EC300637CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WASPayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.bj.wang.WASPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WASPay;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BCF928E1C801EC300637CFD /* Build configuration list for PBXProject "WASPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCF92BE1C801EC300637CFD /* Debug */,
+				7BCF92BF1C801EC300637CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCF92C01C801EC300637CFD /* Build configuration list for PBXNativeTarget "WASPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCF92C11C801EC300637CFD /* Debug */,
+				7BCF92C21C801EC300637CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BCF92C31C801EC300637CFD /* Build configuration list for PBXNativeTarget "WASPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCF92C41C801EC300637CFD /* Debug */,
+				7BCF92C51C801EC300637CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BCF92C61C801EC300637CFD /* Build configuration list for PBXNativeTarget "WASPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCF92C71C801EC300637CFD /* Debug */,
+				7BCF92C81C801EC300637CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCF928B1C801EC300637CFD /* Project object */;
+}
